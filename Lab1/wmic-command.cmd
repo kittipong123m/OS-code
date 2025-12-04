@@ -1,7 +1,7 @@
 dir
 wmic bios get serialnumber
 wmic nic get macaddress
-getmac
+getmac 
 wmic cpu
 wmic computersystem get totalphysicalmemory
 wmic partition get name,size,type
